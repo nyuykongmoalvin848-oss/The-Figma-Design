@@ -263,7 +263,7 @@ body {
 }
 
 .icon-check,
-.icon-check1 {
+.icon-check-1,.icon-check-2 {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
