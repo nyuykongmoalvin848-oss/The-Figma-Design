@@ -258,9 +258,7 @@ body {
   line-height: 1.6;
 }
 
-.features,
-.features1, 
-.features2 li:last-child {
+.features, li:last-child {
   margin-bottom: 0;
 }
 
@@ -529,7 +527,7 @@ hr {
   margin: 0 150px 0 250px;
 }
 
-.term {
+.terms {
   margin-left: 250px;
   display: flex;
   gap: 50px;
