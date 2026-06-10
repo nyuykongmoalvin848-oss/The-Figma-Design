@@ -524,7 +524,7 @@ hr {
   margin: 0 150px 0 250px;
 }
 
-.terms {
+.term {
   margin-left: 250px;
   display: flex;
   gap: 50px;
@@ -671,7 +671,7 @@ img, .diagram-img, .apps, .dia1 {
   text-align: center;
 }
 
-.terms {
+.term {
   margin: 0;
   justify-content: center;
   flex-wrap: wrap;
