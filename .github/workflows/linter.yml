@@ -1,3 +1,4 @@
+---
 #################################
 #################################
 ## Super Linter GitHub Actions ##
@@ -54,3 +55,10 @@ jobs:
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+              
+        uses: super-linter/super-linter@v7
+        env:
+          EXCLUDED_DIRECTORIES: Assets/Images
+          VALIDATE_JSCPD: false 
