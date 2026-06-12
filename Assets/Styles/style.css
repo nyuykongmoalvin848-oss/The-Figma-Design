@@ -674,10 +674,11 @@ img, .diagram-img, .apps, .dia1 {
 }
 
 .term {
-  margin: 0;
+  margin-left: 250px;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  font-size: x-large;
 }
 
 .bottom-apps {
@@ -705,13 +706,22 @@ img, .diagram-img, .apps, .dia1 {
 
 .terms {
   display: grid;
+  
+    margin-left: 30%;               
+    grid-template-columns: 1fr;   
+    gap: 15px;                    
+    padding: 0 20px;              
+    font-size: 0.75rem; 
 }
 
 .language {
-  margin-left: 25px;
+  margin-left: 35px;
 }
 
 .sub-container6, .diagram3{
   background-image: none;
+}
+.bottom-apps {
+  margin-right: 80px;
 }
 }
