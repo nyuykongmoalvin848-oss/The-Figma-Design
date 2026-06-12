@@ -54,8 +54,3 @@ jobs:
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          - name: Lint Code Base
-  uses: github/super-linter@v5
-  env:
-    # Add this to skip markup duplication checks on asset folders
-    EXCLUDED_DIRECTORIES: duplication
