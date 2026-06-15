@@ -113,6 +113,9 @@ body {
   width: 500px;
   height: 300px;
   margin-top: 50px;
+  background-image: url("../Images/undraw_team-assignment_lzot.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .nav-buttons2 {
@@ -135,6 +138,9 @@ body {
   width: 500px;
   height: 300px;
   margin-top: 50px;
+  background-image: url("../Images/undraw_web-developer_gxaa.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .head3 {
@@ -181,6 +187,9 @@ body {
   height: 300px;
   margin-top: 50px;
   margin-bottom: 150px;
+  background-image: url("../Images/undraw_design-tools_wgpz.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sub-bottom-header {
@@ -520,7 +529,7 @@ hr {
   justify-items: center;
 }
 
-.last-footer {
+.footer {
   display: flex;
   gap: 60px;
   margin: 0 150px 0 250px;
@@ -568,7 +577,7 @@ img, .diagram-img, .apps, .dia1 {
 .sub-head,
 .head3,
 .full-testimonial,
-.last-footer {
+.footer {
   flex-direction: column;
   margin: 0;
   padding: 0 20px;
@@ -666,7 +675,7 @@ img, .diagram-img, .apps, .dia1 {
   gap: 20px;
 }
  
-.last-footer {
+.footer {
   gap: 30px;
   margin: 0 20px;
   align-items: center;
@@ -705,13 +714,12 @@ img, .diagram-img, .apps, .dia1 {
 }
 
 .terms {
-  display: grid;
-  
-    margin-left: 30%;               
-    grid-template-columns: 1fr;   
-    gap: 15px;                    
-    padding: 0 20px;              
-    font-size: 0.75rem; 
+  display: grid;  
+  margin-left: 30%;               
+  grid-template-columns: 1fr;   
+  gap: 15px;                    
+  padding: 0 20px;              
+  font-size: 0.75rem; 
 }
 
 .language {
