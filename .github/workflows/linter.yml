@@ -49,16 +49,14 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v4
+        uses: github/super-linter@v7
         env:
           VALIDATE_ALL_CODEBASE: false
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-              
-        uses: super-linter/super-linter@v7
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         env:
           EXCLUDED_DIRECTORIES: Assets/Images
           VALIDATE_JSCPD: false 
+
+          FILTER_REGEX_EXCLUDE: '.*node_modules/.*|.*vendor/.*' 
