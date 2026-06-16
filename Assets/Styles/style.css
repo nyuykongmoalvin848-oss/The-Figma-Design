@@ -278,7 +278,7 @@ body {
 .icon-check-1,
 .icon-check-2,
 .icon-check-3,
-.icon-check4, 
+.icon-check4,
 .reversed {
   width: 20px;
   height: 20px;
@@ -290,7 +290,7 @@ body {
   color: #fff;
 }
 
-.plan-card:not(.highlighted) 
+.plan-card:not(.highlighted),
 .icon-check {
   color: #111827;
 }
@@ -460,7 +460,9 @@ body {
   display: flex;
 }
 
-.testimonial-img, .testimonial-img1 , .testimonial-img5{
+.testimonial-img,
+.testimonial-img1,
+.testimonial-img5 {
   border-radius: 50%;
   margin: 20px 20px 0 10px;
   height: 45px;
@@ -557,7 +559,10 @@ footer {
     flex-wrap: wrap;
   }
 
-  .img, .diagram-img, .apps, .dia1 {
+  .img,
+  .diagram-img,
+  .apps,
+  .dia1 {
     max-width: 100%;
     height: auto;
   }
@@ -594,15 +599,20 @@ footer {
     padding: 0 20px;
   }
 
-  .diagram1,
-  .diagram2,
+  .diagram1, 
+  .diagram2, 
   .diagram3 {
     flex-direction: column;
     margin: 0;
     padding: 0 20px;
   }
 
-  .sub1, .sub2, .sub3, .sub4, .sub5, .sub0 {
+  .sub1,
+  .sub2,
+  .sub3,
+  .sub4,
+  .sub5,
+  .sub0 {
     margin: 0;
     padding-top: 40px;
     text-align: center;
@@ -612,7 +622,8 @@ footer {
     margin-left: 0;
   }
 
-  .para, .para2 {
+  .para,
+  .para2 {
     margin: 0 20px;
     text-align: center;
   }
@@ -623,7 +634,9 @@ footer {
     height: 220px;
   }
 
-  .nav-buttons2, .nav-buttons3, .nav-buttons4 {
+  .nav-buttons2,
+  .nav-buttons3,
+  .nav-buttons4 {
     margin: 30px 0;
     display: flex;
     justify-content: center;
@@ -660,7 +673,9 @@ footer {
     text-align: center;
   }
 
-  .sponsor-icons, .app-icon, .bottom-apps {
+  .sponsor-icons,
+  .app-icon,
+  .bottom-apps {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
@@ -696,7 +711,8 @@ footer {
     margin: 20px 0 0;
   }
   
-  .sub-container6, .sub-container10 {
+  .sub-container6,
+  .sub-container10 {
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
@@ -716,12 +732,12 @@ footer {
   }
 
   .terms {
-    display: grid;  
-    margin-left: 30%;               
-    grid-template-columns: 1fr;   
-    gap: 15px;                    
-    padding: 0 20px;              
-    font-size: 0.75rem; 
+    display: grid;
+    margin-left: 30%;            
+    grid-template-columns: 1fr;
+    gap: 15px;               
+    padding: 0 20px;           
+    font-size: 0.75rem;
   }
 
   .language {
