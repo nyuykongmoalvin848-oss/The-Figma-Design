@@ -753,4 +753,18 @@ footer {
   .bottom-apps {
     margin: 20px;
   }
+
+  .menu-toggle-input {
+    display: none;
+  }
+
+  .nav-links,
+  .nav-buttons {
+    display: none;
+  }
+
+  .menu-toggle-input:checked ~ .nav-links,
+  .menu-toggle-input:checked ~ .nav-buttons {
+    display: flex;
+  }
 }
