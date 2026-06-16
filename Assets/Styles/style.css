@@ -34,7 +34,7 @@ body {
   max-width: 100%;
 }
 
-.logo20
+.logo20,
 .logo10 {
   margin: 10px;
   width: 60px;
@@ -207,7 +207,7 @@ body {
   margin-bottom: 100px;
 }
 
-.plan-card
+.plan-card,
 .plan-card1 {
   background: white;
   border: 1px solid #e5e7eb;
@@ -242,7 +242,9 @@ body {
   color: #facc15;
 }
 
-.plan-subtitle, .plan-subtitle0 ,.plan-subtitle9{
+.plan-subtitle,
+.plan-subtitle0,
+.plan-subtitle9 {
   font-size: 15px;
   color: #6b7280;
   margin-bottom: 32px;
@@ -267,7 +269,8 @@ body {
   line-height: 1.6;
 }
 
-.features, li:last-child {
+.features,
+.li:last-child {
   margin-bottom: 0;
 }
 
@@ -548,186 +551,187 @@ footer {
 }
 
 @media (max-width: 768px) {
-.container1 {
-  margin: 0;
-  padding: 0 20px;
-  flex-wrap: wrap;
-}
+  .container1 {
+    margin: 0;
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
 
-img, .diagram-img, .apps, .dia1 {
-  max-width: 100%;
-  height: auto;
-}
+  .img, .diagram-img, .apps, .dia1 {
+    max-width: 100%;
+    height: auto;
+  }
 
-.nav-links,
-.nav-buttons {
-  display: none;
-}
+  .nav-links,
+  .nav-buttons {
+    display: none;
+  }
 
-.menu-icon {
-  display: block;
-}
+  .menu-icon {
+    display: block;
+  }
 
-.navbar .container1 {
-  justify-content: space-between;
-}
+  .navbar,
+  .container1 {
+    justify-content: space-between;
+  }
 
-.sub-head,
-.head3,
-.full-testimonial,
-footer {
-  flex-direction: column;
-  margin: 0;
-  padding: 0 20px;
-}
+  .sub-head,
+  .head3,
+  .full-testimonial,
+  footer {
+    flex-direction: column;
+    margin: 0;
+    padding: 0 20px;
+  }
 
-.sub-container,
-.sub-container4,
-.sub-container5,
-.sub-container6 {
-  flex-direction: column;
-  margin: 0;
-  padding: 0 20px;
-}
+  .sub-container,
+  .sub-container4,
+  .sub-container5,
+  .sub-container6 {
+    flex-direction: column;
+    margin: 0;
+    padding: 0 20px;
+  }
 
-.diagram1,
-.diagram2,
-.diagram3 {
-  flex-direction: column;
-  margin: 0;
-  padding: 0 20px;
-}
+  .diagram1,
+  .diagram2,
+  .diagram3 {
+    flex-direction: column;
+    margin: 0;
+    padding: 0 20px;
+  }
 
-.sub1, .sub2, .sub3, .sub4, .sub5, .sub0 {
-  margin: 0;
-  padding-top: 40px;
-  text-align: center;
-}
+  .sub1, .sub2, .sub3, .sub4, .sub5, .sub0 {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+  }
 
-.sub3 {
-  margin-left: 0;
-}
+  .sub3 {
+    margin-left: 0;
+  }
 
-.para, .para2 {
-  margin: 0 20px;
-  text-align: center;
-}
+  .para, .para2 {
+    margin: 0 20px;
+    text-align: center;
+  }
 
-.empty, .empty2, .empty3 {
-  width: 100%;
-  margin: 30px 0;
-  height: 220px;
-}
+  .empty, .empty2, .empty3 {
+    width: 100%;
+    margin: 30px 0;
+    height: 220px;
+  }
 
-.nav-buttons2, .nav-buttons3, .nav-buttons4 {
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-}
+  .nav-buttons2, .nav-buttons3, .nav-buttons4 {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
 
-.nav-buttons3 {
-  margin-left: 0;
-  margin-bottom: 80px;
-}
+  .nav-buttons3 {
+    margin-left: 0;
+    margin-bottom: 80px;
+  }
 
-.pricing-wrapper {
-  grid-template-columns: 1fr;
-  padding: 0 20px;
-  gap: 20px;
-}
+  .pricing-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    gap: 20px;
+  }
  
-.plan-card.highlighted {
-  transform: scale(1);
-  padding: 36px 32px;
-}
+  .plan-card.highlighted {
+    transform: scale(1);
+    padding: 36px 32px;
+  }
  
-.diagram1, .diagram2 {
-  gap: 30px;
-  margin: 40px 0;
-}
+  .diagram1, .diagram2 {
+    gap: 30px;
+    margin: 40px 0;
+  }
 
-.dia1, .apps {
-  margin: 0 auto 30px;
-  height: auto;
-}
+  .dia1, .apps {
+    margin: 0 auto 30px;
+    height: auto;
+  }
 
-.element, .element2, .head-element {
-  font-size: 2em;
-  text-align: center;
-}
+  .element, .element2, .head-element {
+    font-size: 2em;
+    text-align: center;
+  }
 
-.sponsor-icons, .app-icon, .bottom-apps {
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin: 0 20px 60px;
-}
+  .sponsor-icons, .app-icon, .bottom-apps {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 20px 60px;
+  }
 
-.diagram3 {
-  padding: 40px 20px;
-  background-size: cover;
-}
+  .diagram3 {
+    padding: 40px 20px;
+    background-size: cover;
+  }
 
-.full-testimonial {
-  margin: 40px 20px;
-  gap: 20px;
-}
+  .full-testimonial {
+    margin: 40px 20px;
+    gap: 20px;
+  }
  
-footer {
-  gap: 30px;
-  margin: 0 20px;
-  align-items: center;
-  text-align: center;
-}
+  footer {
+    gap: 30px;
+    margin: 0 20px;
+    align-items: center;
+    text-align: center;
+  }
 
-.term {
-  margin-left: 250px;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  font-size: x-large;
-}
+  .term {
+    margin-left: 250px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: x-large;
+  }
 
-.bottom-apps {
-  margin: 20px 0 0;
-}
+  .bottom-apps {
+    margin: 20px 0 0;
+  }
   
-.sub-container6, .sub-container10 {
-  background-size: cover;
-  background-position: center;
-  padding: 40px 20px;
-}
+  .sub-container6, .sub-container10 {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+  }
 
-.sub-container {
-  background-size: cover;
-  background-position: center;
-}
+  .sub-container {
+    background-size: cover;
+    background-position: center;
+  }
 
-.last2 {
-  display: none;
-}
+  .last2 {
+    display: none;
+  }
   
-.plan-card3 {
-  display: none;
-}
+  .plan-card3 {
+    display: none;
+  }
 
-.terms {
-  display: grid;  
-  margin-left: 30%;               
-  grid-template-columns: 1fr;   
-  gap: 15px;                    
-  padding: 0 20px;              
-  font-size: 0.75rem; 
-}
+  .terms {
+    display: grid;  
+    margin-left: 30%;               
+    grid-template-columns: 1fr;   
+    gap: 15px;                    
+    padding: 0 20px;              
+    font-size: 0.75rem; 
+  }
 
-.language {
-  margin-left: 35px;
-}
+  .language {
+    margin-left: 35px;
+  }
 
-.sub-container6, .diagram3{
-  background-image: none;
-}
-.bottom-apps {
-  margin-right: 80px;
-}
+  .sub-container6, .diagram3{
+    background-image: none;
+  }
+  .bottom-apps {
+    margin-right: 80px;
+  }
 }
