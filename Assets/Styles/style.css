@@ -283,8 +283,6 @@ body {
   margin-top: 2px;
 }
 
-
-
 .highlighted {
   color: #fff;
 }
@@ -529,7 +527,7 @@ hr {
   justify-items: center;
 }
 
-.footer {
+footer {
   display: flex;
   gap: 60px;
   margin: 0 150px 0 250px;
@@ -577,7 +575,7 @@ img, .diagram-img, .apps, .dia1 {
 .sub-head,
 .head3,
 .full-testimonial,
-.footer {
+footer {
   flex-direction: column;
   margin: 0;
   padding: 0 20px;
@@ -675,7 +673,7 @@ img, .diagram-img, .apps, .dia1 {
   gap: 20px;
 }
  
-.footer {
+footer {
   gap: 30px;
   margin: 0 20px;
   align-items: center;

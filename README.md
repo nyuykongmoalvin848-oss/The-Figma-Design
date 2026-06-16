@@ -1,4 +1,4 @@
-# FIGMA DESIGN
+# FIGMA DESIGN PROJECT
 
 ## Description
 
