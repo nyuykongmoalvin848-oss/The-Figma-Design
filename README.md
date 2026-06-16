@@ -30,4 +30,3 @@ Testimonials
 ## Contributing
 
 Pull requests are welcome
-# The-Figma-Design
