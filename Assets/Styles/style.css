@@ -599,8 +599,8 @@ footer {
     padding: 0 20px;
   }
 
-  .diagram1, 
-  .diagram2, 
+  .diagram1,
+  .diagram2,
   .diagram3 {
     flex-direction: column;
     margin: 0;
@@ -628,7 +628,9 @@ footer {
     text-align: center;
   }
 
-  .empty, .empty2, .empty3 {
+  .empty,
+  .empty2,
+  .empty3 {
     width: 100%;
     margin: 30px 0;
     height: 220px;
@@ -668,7 +670,9 @@ footer {
     height: auto;
   }
 
-  .element, .element2, .head-element {
+  .element,
+  .element2,
+  .head-element {
     font-size: 2em;
     text-align: center;
   }
@@ -733,10 +737,10 @@ footer {
 
   .terms {
     display: grid;
-    margin-left: 30%;            
+    margin-left: 30%;         
     grid-template-columns: 1fr;
-    gap: 15px;               
-    padding: 0 20px;           
+    gap: 15px;   
+    padding: 0 20px;  
     font-size: 0.75rem;
   }
 
@@ -744,10 +748,12 @@ footer {
     margin-left: 35px;
   }
 
-  .sub-container6, .diagram3{
+  .sub-container6, .diagram3 {
     background-image: none;
   }
+
   .bottom-apps {
     margin-right: 80px;
   }
 }
+
