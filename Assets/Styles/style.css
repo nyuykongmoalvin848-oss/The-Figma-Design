@@ -734,7 +734,7 @@ footer {
 
   .terms {
     display: grid;
-    margin-left: 30%;       
+    margin-left: 30%;
     grid-template-columns: 1fr;
     gap: 15px;
     padding: 0 20px;
