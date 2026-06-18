@@ -552,6 +552,10 @@ footer {
   max-width: 100%;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .container1 {
     margin: 0;
@@ -754,17 +758,26 @@ footer {
     margin: 20px;
   }
 
-  .menu-toggle-input {
-    display: none;
+  .menu-toggle-label {
+    display: block;
   }
 
-  .nav-links1,
-  .nav-buttons1 {
+  .nav-links,
+  .nav-buttons {
     display: none;
+    width: 100%;
   }
 
-  .menu-toggle-input:checked ~ .nav-links,
-  .menu-toggle-input:checked ~ .nav-buttons {
+  .menu-toggle:checked ~ .nav-links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .menu-toggle:checked ~ .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
   }
 }
