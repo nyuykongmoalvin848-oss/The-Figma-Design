@@ -1,4 +1,4 @@
-# FIGMA DESIGN
+# FIGMA DESIGN PROJECT
 
 ## Description
 
@@ -30,4 +30,3 @@ Testimonials
 ## Contributing
 
 Pull requests are welcome
-# The-Figma-Design
